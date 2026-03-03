@@ -13,7 +13,7 @@ function App() {
       <header className="bg-claro-red shadow-lg">
         <div className="max-w-6xl mx-auto px-4 py-6">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
-            Autoatendimento
+            Atendimento Claro
           </h1>
           <p className="text-white/90 text-center mt-2 text-sm md:text-base">
             Estamos aqui para ajudar você
