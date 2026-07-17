@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      <header className="bg-med-green shadow-lg">
+      <header className="bg-claro-red shadow-lg">
         <div className="max-w-6xl mx-auto px-4 py-6">
           <h1 className="text-3xl md:text-4xl font-bold text-white text-center">
             Atendimento ao Cliente
@@ -26,11 +26,11 @@ function App() {
           <div className="grid md:grid-cols-2 gap-4 md:gap-6">
             <button
               onClick={() => openWhatsApp('Olá! Gostaria de iniciar um atendimento seguro.')}
-              className="group bg-white hover:bg-med-green hover:shadow-2xl transition-all duration-300 rounded-2xl p-8 shadow-lg border-2 border-transparent hover:border-med-green transform hover:scale-105"
+              className="group bg-white hover:bg-claro-red hover:shadow-2xl transition-all duration-300 rounded-2xl p-8 shadow-lg border-2 border-transparent hover:border-claro-red transform hover:scale-105"
             >
               <div className="flex items-center justify-center mb-4">
-                <div className="bg-med-green group-hover:bg-white transition-colors duration-300 rounded-full p-4">
-                  <MessageCircle className="w-10 h-10 text-white group-hover:text-med-green transition-colors duration-300" />
+                <div className="bg-claro-red group-hover:bg-white transition-colors duration-300 rounded-full p-4">
+                  <MessageCircle className="w-10 h-10 text-white group-hover:text-claro-red transition-colors duration-300" />
                 </div>
               </div>
               <h2 className="text-2xl font-bold text-gray-800 group-hover:text-white transition-colors duration-300 text-center">
@@ -67,11 +67,11 @@ function App() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             <button
               onClick={() => openWhatsApp('Olá! Gostaria de solicitar a 2ª via de boleto.')}
-              className="bg-white hover:bg-med-green group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-med-green"
+              className="bg-white hover:bg-claro-red group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-claro-red"
             >
               <div className="flex flex-col items-center text-center space-y-3">
-                <div className="bg-med-green/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
-                  <FileText className="w-8 h-8 text-med-green group-hover:text-med-green transition-colors duration-300" />
+                <div className="bg-claro-red/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
+                  <FileText className="w-8 h-8 text-claro-red group-hover:text-claro-red transition-colors duration-300" />
                 </div>
                 <span className="text-lg font-semibold text-gray-800 group-hover:text-white transition-colors duration-300">
                   2ª Via de Boleto
@@ -81,11 +81,11 @@ function App() {
 
             <button
               onClick={() => openWhatsApp('Olá! Preciso de suporte técnico.')}
-              className="bg-white hover:bg-med-green group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-med-green"
+              className="bg-white hover:bg-claro-red group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-claro-red"
             >
               <div className="flex flex-col items-center text-center space-y-3">
-                <div className="bg-med-green/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
-                  <Wrench className="w-8 h-8 text-med-green group-hover:text-med-green transition-colors duration-300" />
+                <div className="bg-claro-red/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
+                  <Wrench className="w-8 h-8 text-claro-red group-hover:text-claro-red transition-colors duration-300" />
                 </div>
                 <span className="text-lg font-semibold text-gray-800 group-hover:text-white transition-colors duration-300">
                   Suporte Técnico
@@ -95,11 +95,11 @@ function App() {
 
             <button
               onClick={() => openWhatsApp('Olá! Gostaria de tratar de outros assuntos.')}
-              className="bg-white hover:bg-med-green group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-med-green"
+              className="bg-white hover:bg-claro-red group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-claro-red"
             >
               <div className="flex flex-col items-center text-center space-y-3">
-                <div className="bg-med-green/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
-                  <MoreHorizontal className="w-8 h-8 text-med-green group-hover:text-med-green transition-colors duration-300" />
+                <div className="bg-claro-red/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
+                  <MoreHorizontal className="w-8 h-8 text-claro-red group-hover:text-claro-red transition-colors duration-300" />
                 </div>
                 <span className="text-lg font-semibold text-gray-800 group-hover:text-white transition-colors duration-300">
                   Outros Assuntos
@@ -109,11 +109,11 @@ function App() {
 
             <button
               onClick={() => openWhatsApp('Olá! Gostaria de entrar em contato.')}
-              className="bg-white hover:bg-med-green group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-med-green"
+              className="bg-white hover:bg-claro-red group transition-all duration-300 rounded-xl p-6 shadow-md hover:shadow-xl transform hover:scale-105 border border-gray-200 hover:border-claro-red"
             >
               <div className="flex flex-col items-center text-center space-y-3">
-                <div className="bg-med-green/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
-                  <MessageCircle className="w-8 h-8 text-med-green group-hover:text-med-green transition-colors duration-300" />
+                <div className="bg-claro-red/10 group-hover:bg-white transition-colors duration-300 rounded-full p-3">
+                  <MessageCircle className="w-8 h-8 text-claro-red group-hover:text-claro-red transition-colors duration-300" />
                 </div>
                 <span className="text-lg font-semibold text-gray-800 group-hover:text-white transition-colors duration-300">
                   Fale Conosco
